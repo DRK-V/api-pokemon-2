@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="./IMG/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" type="text/css" href="./CSS/header.css">
+  <link rel="stylesheet" href="./CSS/cardside.css">
+  <link rel="stylesheet" type="text/css" href="./CSS/sidebar.css">
+  <link rel="stylesheet" type="text/css" href="./CSS/contenido.css">
+  <link rel="stylesheet" type="text/css" href="./CSS/listaPoke.css">
+  <link rel="stylesheet" type="text/css" href="./CSS/colorTipos.css">
+  <link rel="stylesheet" type="text/css" href="./CSS/popUp.css">
+  <link rel="stylesheet" href="./CSS/modalAcerca.css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" rel="stylesheet">
+  <title>Pokedex</title>
+
+</head>
+
+<body>
+
+
+  <aside id="aside-container" class="side-container">
+    <div class="img-fondo" id="close-boton">
+      <img class="img" src="https://img.freepik.com/iconos-gratis/pikachu_318-196537.jpg">
+    </div>
+
+    <div onclick="closeSidebar()" class="labelBtn">
+      <img src="./IMG/Poke.png">
+    </div>
+
+    <input type="checkbox" class="inputBtn" id="btn-check">
+
+    <div class="sidebar-items">
+      <a href="./index.html" >Inicio</a>
+      <a href="#" onclick="obtenerPokemonG(1)">Generation I</a>
+      <a href="#" onclick="obtenerPokemonG(2)">Generation II</a>
+      <a href="#" onclick="obtenerPokemonG(3)">Generation III</a>
+      <a href="#" onclick="obtenerPokemonG(4)">Generation IV</a>
+      <a href="#" onclick="obtenerPokemonG(5)">Generation V</a>
+      <a href="#" onclick="obtenerPokemonG(6)">Generation VI</a>
+      <a href="#" onclick="obtenerPokemonG(7)">Generation VII</a>
+      <a href="#" onclick="obtenerPokemonG(8)">Generation VIII</a>
+    </div>
+  </aside>
+
+
+  <!-- CONTENEDOR CONTENIDO -->
+  <div id="content">
+    <div onclick="openSidebar()" id="pokeball-button" class="open-btn">
+      <img class="img-pokeball-content" src="./IMG/favicon.ico">
+    </div>
+    <!-- HEADER -->
+    <header class="header">
+      <img id="pokelogo" src="./IMG/PokeLogo.png" alt="Pokemon Logo">
+      <div class="container-search">
+        <div class="search">
+          <input class="search-p" id="pokemon-busqueda" type="search" placeholder="Buscar un pokemon">
+        
+        </div>
+        <button class="Btn-al" onclick="generarpokemon()">
+          <p>Generar Aleatorio</p>
+          <img class="img-al" src="./IMG/aleatorio.png" alt="Aleatorio">
+        </button>
+      </div>
+    </header>
+
+
+    <!-- CONTENEDOR POKEMONES LISTA -->
+
+    <div class="busquedas">
+
+    </div>
+
+    <main class="listaPoke">
+
+    </main>
+
+
+    <div id="pokemon-container"></div>
+    <section id="bigCard">
+
+    </section>
+
+    <div class="busquedas">
+
+    </div>
+    <div onclick="scrollArriba()" class="ascensor"><img src="./IMG/flecha.png"></div>
+    <footer>
+      <div class="info-footer">
+         
+      </div>
+      <div class="contenedor-iconos">
+          <span class="icon --1"></span>
+          <span class="icon --2"></span>
+          <span class="icon --3"></span>
+      </div>
+      <div class="contenedor-nombres">
+          <ul>
+              <li>
+                  <> Daniel Arango
+              </li>
+              <li>
+                  <> Willian Briñez
+              </li>
+              <li>
+                  <> Brayan Cañas
+              </li>
+              
+          </ul>
+      </div>
+      <div class="contenedor-nombres">
+          <ul>
+              <li>@copyright - 2023</li>
+          </ul>
+      </div>
+  </footer>
+  </div>
+
+  
+
+  <!-- CONTENEDOR CONTENIDO -->
+
+
+  <script src="./JS/cardPoke.js"></script>
+  <script src="./JS/scrollAparicionPokemon.js"></script>
+  <script src="./JS/sidebar.js"></script>
+  <script src="./JS/popup.js"></script>
+  <script src="./JS/pokecasside.js"></script>
+  <script src="./JS/buscador.js"></script>
+</body>
+
+</html>

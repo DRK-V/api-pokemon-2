@@ -1,0 +1,346 @@
+.contenedor-card-big{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.7);
+	z-index: 9999;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	overflow: auto;
+}
+
+.contenido-pop{
+	
+background-color: #eaffffdd;
+position: relative;
+height: auto;
+border-radius: 20px;
+display: flex;
+background-image: url(https://pm1.aminoapps.com/6159/24beb062995cfbdd8dc9e00534767b06ed76f3d4_hq.jpg);
+
+}
+
+@media (min-width: 1200px){
+	.contenido-pop {
+		width: 75%;
+		z-index: 21;
+		padding: 3em 2em 1em 2em;
+		position: relative;
+		font-size: 1em;
+		height: 90%;
+	}
+
+
+
+.btnCerrar{
+width: 2.5em;
+position: absolute;
+right: 0;
+top: 0;
+cursor: pointer;
+background: transparent;
+border: none;
+display: grid;
+place-items: center;
+margin: 1em;
+cursor: pointer;
+}
+
+.btnCerrar img{
+	width: 100%;
+}
+
+.text-descripcion{
+	font-size: 90px;
+	color: black;
+}
+
+.nombre-imagen{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+
+}
+
+.nombre-imagen p{
+	font-weight: bold;
+	opacity: .7;
+	z-index: -1;
+	text-shadow: 10px 5px 5px black;
+	color: antiquewhite;
+	font-size: 5vw;
+	width: 90%;
+	height:20%;
+	text-align: center;
+}
+
+.nombre-imagen h2{
+	text-align: center;
+	width: 100%;	
+	font-size: 3rem;
+}
+
+
+.img-pokemon{
+	margin: 10%;
+	border-radius: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	max-width: 50%;
+
+
+}
+
+
+.info-pokemon{
+width: 100%;
+padding: 1em 1.5em 2em 1.5em;
+border-radius: 20px;
+/* background-image: url(https://e1.pxfuel.com/desktop-wallpaper/823/394/desktop-wallpaper-8-bit-8.jpg); */
+}
+
+.peso-altu{
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 2em;
+font-size: 1.5em;
+margin: .5EM 0px;
+font-weight: bold;
+}
+
+.peso{
+    text-align: center;
+}
+
+.altura {
+   text-align: center;
+}
+
+.info-pokemon .Tipes{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:2em;
+    margin: 1em 0;
+    height: 1em;
+    font-size: 3vw;
+    
+}
+
+.estadisticas{
+	display: flex;
+    flex-direction: column;
+    background: #ffffffd4;
+    padding: 1em;
+    border-radius: 20px;
+	
+}
+
+
+.estadisticas h3{
+	margin: .5em auto;
+} 
+
+
+.contenido-bar{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.barras{
+	width: 100%;
+    background: black;
+    border-radius: 10px;
+    padding: 2px;
+}
+
+.barras .cantidad{
+    width: 58.5%;
+    background: #ff5540;
+    height: 100%;
+    
+}
+
+.states{
+	width: 98%;
+  	display: flex;
+  	justify-content: space-between;
+  	align-items: center;
+  	font-size: 1em;
+  	margin: 4px auto;
+}
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+
+}
+@media screen and (max-width:1200px){
+
+	.contenido-pop{
+		width: 80%;
+		padding: 1em 1em;
+		flex-direction: column;
+		background-image: url(../IMG/f-615px.jpg);
+		background-repeat: round;
+	}
+	
+	.btnCerrar{
+	width: 2em;
+	position: absolute;
+	right: 0;
+	top: 0;
+	cursor: pointer;
+	background: transparent;
+	border: none;
+	margin-right: 1em;
+	display: grid;
+	place-items:center;
+	margin: 1em;
+	}
+	
+	.btnCerrar img{
+		width: 100%;
+	}
+	
+	
+	
+	.nombre-imagen{
+	padding-top: 1.5em;
+		width: 100%;
+		justify-content: center;
+		align-items: center;
+		display: flex;
+		flex-direction: column;
+		
+	
+	}
+	
+	.nombre-imagen p{
+		font-weight: bold;
+		opacity: .7;
+		z-index: -1;
+		text-shadow: 10px 5px 5px black;
+		color: antiquewhite;
+		font-size: 9vw;
+		width: 100%;
+		text-align: center;
+	}
+	
+	.nombre-imagen h2{
+		text-align: center;
+		width: 100%;	
+		font-size: 2rem;
+	}
+	
+	
+	
+	.img-pokemon{
+		width: 35%;
+		border-radius: 10px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	
+	}
+	
+	
+	
+	.info-pokemon{
+	width: 100%;
+	margin-top: 1em;
+	}
+	
+	.estadisticas {
+	  display: flex;
+	  flex-direction: column;
+	  margin: auto;
+	  width: 100%;
+	}
+	
+	.info-pokemon .Tipes{
+		gap: 2em;
+	margin: 1em 0;
+	font-size: 1em;
+	display: flex;
+	justify-content: center;
+	}
+	
+	.peso-altu{
+	   width: 100%;
+	display: flex;
+	margin-top: .5em;
+	justify-content: center;
+	align-items: center;
+	gap: 20px;
+	font-size: 1em;
+	}
+	
+	.peso{
+		text-align: center;
+	}
+	
+	.altura {
+	   text-align: center;
+	}
+	
+	.Tipes .tipo{
+		font-size: 1rem;
+	padding: 8px 4px 8px 4px;
+	min-width: 80px;
+	text-align: center;
+	}
+	
+	
+	.estadisticas h3{
+		
+	  font-size: 1em;
+	  margin-top: 10%;
+	  text-align: center;
+	
+	} 
+	
+	
+	.contenido-bar{
+		display: flex;
+		flex-wrap: wrap;
+	}
+	
+	.contenido-bar p{
+		font-size: 1em;
+	}
+	
+	.states {
+	  width: 98%;
+	  display: flex;
+	  justify-content: space-between;
+	  align-items: center;
+	  font-size: .8em;
+	  margin: 2px auto;
+	}
+	
+	.barras {
+	  width: 100%;
+	  height: .8em;
+	  background: gray;
+	  margin-right: 10px;
+	  border-radius: 10px;
+	  padding: 2px;
+	  margin: 2px;
+	}
+	
+	.contenido-bar{
+		margin: 0 2px;
+	}
+	
+	}
+	

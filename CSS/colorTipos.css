@@ -1,0 +1,132 @@
+:root{
+	--normal:#E6E6FA;
+		--normal-border:#DCDCDC;
+	--fire:rgba(220, 20, 60, 0.884);
+		--fire-border:#B22222;
+	--water:#4169E1;
+		--water-border:#7B68EE;
+	--grass:#0b9b0bb2;
+		--grass-border:#0b9b0bb2;
+	--electric:#FFFF00;
+		--electric-border:#FFD700;
+	--ice:#7FFFD4;
+		--ice-border:#AFEEEE;
+	--fighting:#B22222;
+		--fighting-border:#8B0000;
+	--poison:#9370DB;
+		--poison-border:#8A2BE2;
+	--ground:#DEB887;
+		--ground-border:#D2B48C;
+	--flying:#A98FF3;
+		--flying-border:#947CD6;
+	--psychic:#EE82EE;
+		--psychic-border:#DDA0DD;
+	--bug:#9ACD32;
+		--bug-border:#6B8E23;
+	--rock:#CD853F;
+		--rock-border:#D2691E;
+	--ghost:#800080;
+		--ghost-border:#4B0082;
+	--dark:#778899;
+		--dark-border:#2F4F4F;
+	--dragon:#7B68EE;
+		--dragon-border:#6A5ACD;
+	--steel:#D3D3D3;
+		--steel-border:#C0C0C0;
+	--fairy:#FF88EE;
+		--fairy-border:#FFBBEE;
+
+}
+.btn{
+	padding: .5rem;
+	border-radius: 10px;
+
+/*	margin-bottom: 10px;
+*/
+}
+
+
+
+
+.normal{
+	background-color: var(--normal);
+	border: 2px solid var(--normal-border);
+}
+
+.fire{
+	background-color: var(--fire);
+	border: 2px solid var(--fire-border)
+}
+
+.water{
+	background-color: var(--water);
+	border: 2px solid var(--water-border);
+}
+
+.grass{
+	background-color: var(--grass);
+	border: 2px solid var(--grass-border)
+}
+
+.electric{
+	background-color: var(--electric);
+	border:2px solid var(--electric-border);
+}
+.ice{
+	background-color: var(--ice);
+	border:2px solid var(--ice-border);
+}
+.fighting{
+	background-color: var(--fighting);
+	border:2px solid var(--fighting-border);
+}
+.poison{
+	background-color: var(--poison);
+	border:2px solid var(--poison-border);
+}
+.ground{
+	background-color: var(--ground);
+	border:2px solid var(--ground-border);
+}
+.flying{
+	background-color: var(--flying);
+	border:2px solid var(--flying-border);
+}
+.psychic{
+	background-color: var(--psychic);
+	border:2px solid var(--psychic-border);
+}
+.bug{
+	background-color: var(--bug);
+	border:2px solid var(--bug-border);
+}
+.rock{
+	background-color: var(--rock);
+	border:2px solid var(--rock-border);
+}
+.ghost{
+	background-color: var(--ghost);
+	border:2px solid var(--ghost-border);
+}
+.dark{
+	background-color: var(--dark);
+	border:2px solid var(--dark-border);
+}
+.dragon{
+	background-color: var(--dragon);
+	border:2px solid var(--dragon-border);
+}
+.steel{
+	background-color: var(--steel);
+	border:2px solid var(--steel-border);
+}
+.fairy{
+	background-color: var(--fairy);
+	border:2px solid var(--fairy-border);
+}
+.tipo{
+    font-size: 1.5rem;
+    padding: 8px 4px 8px 4px;
+    min-width: 80px;
+    text-align: center;
+}
